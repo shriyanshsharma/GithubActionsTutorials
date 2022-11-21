@@ -41,4 +41,4 @@ jobs:
       # validate with local test run. Some excluded files are deleted first
       - name: validate branch
         run: |       
-            sfdx force:source:deploy -c -p force-app/ -l RunLocalTests
+            sfdx force:source:deploy -c -p force-app/
