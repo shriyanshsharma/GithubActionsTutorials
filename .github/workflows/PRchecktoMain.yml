@@ -36,7 +36,7 @@ jobs:
       # auth to the target org (UAT)      
       - uses: sfdx-actions/setup-sfdx@v1
         with:
-          sfdx-auth-url: ${{ secrets.ORG_ACC_UAT }}
+          sfdx-auth-url: ${{ secrets.ORG_ACC_APEX_PLAYGROUND }}
 
       # validate with local test run. Some excluded files are deleted first
       - name: validate branch
